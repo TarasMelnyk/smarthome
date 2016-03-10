@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo_b">
+            <a href="main.html"><img src="img/logo2_2.png"></a>
+        </div>
+        <div class="progress">
+            <div class="all_money">
+                <span><strong>Всього грошей:</strong></span>
+                <br>
+                <span>Grn: 10000</span>
+                <br>
+                <span>$: 500</span>
+                <br>
+                <span>Euro:900</span>
+            </div>
+            <div class="all_progress">
+                <span>Грошей до кінця місяця:</span>
+                <br>
+                <progress value="34" max="100"></progress>
+                <p style="text-align:center;">34% complete </p>
+            </div>
+            <div class="show_events">
+                <span>Наступні події:</span>
+            </div>
+        </div>
+        <div>
+            <div class="header_menu">
+            </div>
+        </div>
+        <div class="main">
+            <div class="main_left">
+                <ul class="menu_list">
+                    <li>Платежі</li>
+                    <li>Бюджет</li>
+                    <li>Події</li>
+                    <li>Фотопоток</li>
+                    <li>Файло-банк</li>
+                    <li>Розумний будинок</li>
+                    <li>Чат</li>
+                </ul>
+            </div>
+            <div class="main_center">
+                <form class="payment_forms">
+                    <div class="electricity">
+                        <input type="checkbox" checked> Електрика
+                        <br> Лічильник:
+                        <input type="text" name="counter_electricity" value="№:334455-2" readonly>
+                        <br> Попередні:
+                        <input type="text" name="login">
+                        <br> Теперішні:
+                        <input type="text" name="login">
+                        <br> Різниця:
+                        <input type="text" name="login">
+                        <br> Коофіціент:
+                        <input type="text" name="login">
+                        <br> Сума:
+                        <input type="text" name="login">
+                        <br>
+                    </div>
+                    <div class="heating">
+                        <input type="checkbox" checked> Опалення
+                        <br> Лічильник:
+                        <input type="text" name="counter_heating" value="№:334455-2" readonly>
+                        <br> Попередні:
+                        <input type="text" name="login">
+                        <br> Теперішні:
+                        <input type="text" name="login">
+                        <br> Різниця:
+                        <input type="text" name="login">
+                        <br> Коофіціент:
+                        <input type="text" name="login">
+                        <br> Сума:
+                        <input type="text" name="login">
+                        <br>
+                    </div>
+                    <div class="water">
+                        <input type="checkbox" checked> Вода
+                        <br> Лічильник
+                        <input type="text" name="counter_water" value="№:334455-2" readonly>
+                        <br> Попередні:
+                        <input type="text" name="login">
+                        <br> Теперішні:
+                        <input type="text" name="login">
+                        <br> Різниця:
+                        <input type="text" name="login">
+                        <br> Коофіціент:
+                        <input type="text" name="login">
+                        <br> Сумма:
+                        <input type="text" name="login">
+                        <br>
+                    </div>
+                    <br>
+                    <br> Загальна сума:
+                    <input type="text" name="login">
+                    <br>
+                    <input type="submit" value="Оплатити вибране">
+                </form>
+            </div>
+        </div>
+        <div class="futter">
+            <p>MelnInCorp &#169;</p>
+        </div>
+</body>
+
+</html>
