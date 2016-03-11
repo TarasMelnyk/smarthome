@@ -110,9 +110,22 @@ ul.menu_list a:active {
     height: 75px;
     vertical-align: middle;
 }
-.payment_forms input[type="text"] {
-    margin-left: 30px;
+.payment_forms table{
+    border: 2px solid black;
+   //border-collapse: collapse;
+    border-radius: 10px;
 }
+.payment_forms table tr{
+    text-align: left;
+}
+.payment_forms input[type="text"] {
+  // margin-left: 30px;
+  width: 75px;
+}
+.payment_forms_table{
+  
+}
+
 .electricity,
 .heating,
 .water{
