@@ -113,17 +113,17 @@ ul.menu_list a:active {
 .payment_forms table{
     border: 2px solid black;
    //border-collapse: collapse;
-    border-radius: 10px;
+   // border-radius: 10px;
 }
-.payment_forms table tr{
+.payment_forms table th{
+    text-align: center;
+}
+.payment_forms table td{
     text-align: left;
 }
 .payment_forms input[type="text"] {
   // margin-left: 30px;
   width: 75px;
-}
-.payment_forms_table{
-  
 }
 
 .electricity,
@@ -131,4 +131,29 @@ ul.menu_list a:active {
 .water{
     margin-left: 25px;
     margin-top: 20px;
+}
+
+.payAll{
+    margin:4px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+    width: 60px;
+    /*margin-right:100px;*/
+}
+.payAll span{
+    text-align:center;
+    padding:3px 0px;
+    display:block;
+    border-radius:4px;
+}
+.payAll input{
+    position:absolute;
+    top:-20px;
+}
+.payAll input:checked + span {
+    background-color:green;
+    color:black;
 }

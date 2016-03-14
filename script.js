@@ -35,5 +35,4 @@ z = 15;
 
 console.log(x);*/
 
-
-document.writeln(x);
+//document.writeln(x);
