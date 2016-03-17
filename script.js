@@ -76,7 +76,7 @@ if (age !==18 && name === "Taras") {
 }
 */
 
-var number = 123.1111;
+//var number = 123.1111;
 
 // console.log( number.toFixed(2)); кільскість сиволів після коми
 
@@ -95,4 +95,145 @@ var number = 123.1111;
 
 //console.log(number/2); //NaN
 
-//console.log( isNaN(number)); // true or fals перевірка на нан
+//console.log( isNaN(number)); // true or fals перевірка на NaN (Not a Number)
+/*console.log(1/0); //Infinity
+console.log(-1/0); //-Infinity
+
+var inf=Infinity;
+console.log(inf > 5555555); // Infinity більше любого числа
+console.log(inf + 5555555); // Infinity завжди повертає InfinityInfinity
+*/
+/*var str = '"data"date'; // для виводу тексту в "кавичках"
+var str2 = "\"data\"date"; // для виводу тексту в "кавичках"
+var str3 = 'stroka\n dlina \tdlinnaya bla' //\n перенос рядку, \t табуляція
+console.log(str, str2);
+console.log(str3.length); // довжина строки в буквах
+console.log('stoka'+' '+'dodalas'); //складання строк
+console.log('stoka' .concat('dodalas')); //складання строк
+console.log(str.charAt(1)); // повертає указаний символ
+console.log(str.charCodeAt(1)); // повертає код символу
+console.log(str.substring(3)); // з якого символу виводити
+console.log(str.substring(3, 6)); // які символи виводити з 3 по 6
+console.log(str.substring(-3)); //з якого символу виводити(може бути -)
+console.log(str.substr(3, 6)); // які символи виводити, після 3 символу вивести ще 6
+
+console.log( str.split('')); // розбити строку на масив по шаблону (через пробіл)
+console.log( str.replace('date', 'number')); // замінити строку на іншу
+console.log( str.indexOf('d')); // вивести індекс строки
+console.log( str.toUpperCase()); // перевести в верхній індекс
+console.log( str.toLowerCase()); // перевести в нижній індекс
+*/
+
+/*var booll = true;
+var obj = {}
+
+if (booll) {
+	console.log('Привет ребята');
+}
+
+// Все наступне повертає False інше повертає True
+console.log( Boolean(NaN));
+console.log( Boolean(""));
+console.log( Boolean(0));
+console.log( Boolean(undefined)); //повертає JS
+console.log( Boolean(null)); //повертаємо ми самі
+////////////////////////////////////
+// повертає True
+console.log( Boolean("zzz"));
+console.log( Boolean(2222));
+console.log( Boolean(obj));
+*/
+
+console.log( undefined === null); // не рівні між собою
+
+var param;
+console.log(param); // повертає undefined
+
+var obj = {},
+	arr = [1,2,3];
+
+console.log(obj.parampampam); // повертає undefined
+console.log(arr[5]); // повертає undefined
+
+var func = function(arg){
+	console.log(arg);
+}
+
+func('111');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
