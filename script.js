@@ -144,7 +144,7 @@ console.log( Boolean(2222));
 console.log( Boolean(obj));
 */
 
-console.log( undefined === null); // не рівні між собою
+/*console.log( undefined === null); // не рівні між собою
 
 var param;
 console.log(param); // повертає undefined
@@ -160,7 +160,7 @@ var func = function(arg){
 }
 
 func('111');
-
+*/
 
 
 
