@@ -107,7 +107,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10406,
+				"buffer_size": 10407,
 				"line_ending": "Unix"
 			}
 		},
@@ -117,15 +117,6 @@
 			{
 				"buffer_size": 2567,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/tmelnyk/Desktop/test.html",
-			"settings":
-			{
-				"buffer_size": 429,
-				"line_ending": "Unix",
-				"name": "<style type=\"text/css\">"
 			}
 		}
 	],
@@ -183,10 +174,10 @@
 	},
 	"expanded_folders":
 	[
-		"/home/tmelnyk/Web/site/smarthome.github.com"
 	],
 	"file_history":
 	[
+		"/home/tmelnyk/Desktop/test.html",
 		"/home/tmelnyk/Web/site/smarthome.github.com/script.js",
 		"/home/tmelnyk/Web/site/smarthome.github.com/js/script.js",
 		"/home/tmelnyk/Web/site/smarthome.github.com/login.html",
@@ -223,7 +214,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -265,15 +256,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10406,
+						"buffer_size": 10407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8845,
-								8845
+								619,
+								619
 							]
 						],
 						"settings":
@@ -284,7 +275,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4645.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -319,43 +310,13 @@
 					},
 					"stack_index": 1,
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/tmelnyk/Desktop/test.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 429,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								429,
-								429
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"auto_name": "<style type=\"text/css\">",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -392,7 +353,7 @@
 	"project": "reminder.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
