@@ -169,13 +169,6 @@ func('111');
 
 
 
-alert ("Text for test");
-
-
-
-
-
-
 
 
 

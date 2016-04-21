@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>SmartHome</title>
+	<link href="style/style.css" rel="stylesheet">
+	<link href="style/style_tabs.css" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="js/script_tabs.js"></script>
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+	<div class="header">
+		<div class="logo_b">
+			<a href="login.html"><img src="img/logo2_2.png"></a>
+		</div>
+		<div class="progress">
+			<div class="all_money">
+				<span><strong>Всього грошей:</strong></span>
+				<br>
+				<span>Grn: 10000</span>
+				<br>
+				<span>$: 5000</span>
+				<br>
+				<span>Euro:900</span>
+			</div>
+			<div class="all_progress">
+				<span>Грошей до кінця місяця:</span>
+				<br>
+				<progress value="34" max="100"></progress>
+				<p style="text-align:center;">34% complete </p>
+			</div>
+		</div>
+		<div>
+			<div class="header_menu">
+			</div>
+		</div>
+		<div class="main">
+			<div class="main_left">
+				<ul class="menu_list">
+					<li>Новини</li>
+					<li>Бюджет</li>
+					<li>Платежі</li>
+					<li>Календар</li>
+					<li>Фотопотік</li>
+					<li>Файло-банк</li>
+					<li>Smart Home</li>
+					<li>Налаштування</li>
+				</ul>
+			</div>
+			<div class="main_center">
+
+				<!-- Секція оплати комунальних послуг  -->
+				
+				<div class="wrap">
+  
+  <ul class="tabs group">
+    <li><a class="active" href="#/one">Light &</a></li>
+    <li><a href="#/two">Sexy</a></li>
+    <li><a href="#/three">Tabs</a></li>
+  </ul>
+  
+  <div id="content">
+    <p id="one">Some text about Light sit amet, consectetur adipisicing elit. Pariatur modi quod quo iure recusandae eligendi q.t, consectetur adipisicing elit. Pariatur </p>
+    <p id="two">Sexy sexy  consectetur adipisicing elit. Pariatur modi quod quo iure recusandae eligendi q.t, consectetur adipisicing elit. Pariatur modi quod quo iureq</p>
+    <p id="three">Tabs , consectetur adipisicing elit. Pariatur modi quod quo iure recusandae eligendi q.t, consectetur adipisicing elit. Pariatur modi quod quo iureq</p>
+  </div>
+  
+</div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+				<!-- <form class="payment_forms">
+					<table class="payment_forms_table">
+						<tr>
+							<th> Послуга </th>
+							<th width="10"> Серійний номер </th>
+							<th> Поточний </th>
+							<th> Попередній </th>
+							<th> Різниця </th>
+							<th> Коефіціент </th>
+							<th width="10"> Оплатити все</th>
+							<th width="10"> Оплатити по тарифу </th>
+							<th> Сума </th>
+						</tr>
+						<tr>
+							<td><input type="checkbox" checked> Електрика </td>
+							<td>334455</td>
+							<td><input type="text" name="electricity_new" value="300" readonly size="8"></td>
+							<td><input type="text" name="electricity_old" value="200" size="8"></td>
+							<td><input type="text" name="electricity_diff" value="100" size="8"></td>
+							<td><input type="text" name="electricity_diff" value="1.17" size="8"></td>
+							<td><div class="payAll"><label><input type="checkbox" value="1"><span>Все</span></label></div></td>
+							<td>
+								<select size="1" name="electricity_coef">
+									<option>1.17 до 20</option>
+									<option>1.5 до 50</option>
+									<option>2.1 до 70</option>
+								</select>
+							</td>
+							<td><input type="text" name="electricity_sum" value="" size="8"></td>							
+						</tr>
+						<tr>
+							<td><input type="checkbox" checked> Опалення </td>
+							<td>334455</td>
+							<td><input type="text" name="heating_new" value="300" readonly size="8"></td>
+							<td><input type="text" name="heating_old" value="200" size="8"></td>
+							<td><input type="text" name="heating_diff" value="100" size="8"></td>
+							<td><input type="text" name="heating_diff" value="1.17" size="8"></td>
+							<td><div class="payAll"><label><input type="checkbox" value="1"><span>Все</span></label></div></td>
+							<td>
+								<select size="1" name="heating_coef">
+									<option>1.17 до 20</option>
+									<option>1.5 до 50</option>
+									<option>2.1 до 70</option>
+								</select>
+							</td>
+							<td><input type="text" name="heating_sum" value="" size="8"></td>	
+						</tr>
+						<tr>
+							<td><input type="checkbox" checked> Вода </td>
+							<td>334455</td>
+							<td><input type="text" name="water_new" value="300" readonly size="8"></td>
+							<td><input type="text" name="water_old" value="200" size="8"></td>
+							<td><input type="text" name="water_diff" value="100" size="8"></td>
+							<td><input type="text" name="water_diff" value="1.17" size="8"></td>
+							<td><div class="payAll"><label><input type="checkbox" value="1"><span>Все</span></label></div></td>
+							<td>
+								<select size="1" name="water_coef">
+									<option>1.17 до 20</option>
+									<option>1.5 до 50</option>
+									<option>2.1 до 70</option>
+								</select>
+							</td>
+							<td><input type="text" name="water_sum" value="" size="8"></td>	
+						</tr>
+						<tr>
+							<td><input type="checkbox" checked> Газ </td>
+							<td>334455</td>
+							<td><input type="text" name="gas_new" value="300" readonly size="8"></td>
+							<td><input type="text" name="gas_old" value="200" size="8"></td>
+							<td><input type="text" name="gas_diff" value="100" size="8"></td>
+							<td><input type="text" name="gas_diff" value="1.17" size="8"></td>
+							<td><div class="payAll"><label><input type="checkbox" value="1"><span>Все</span></label></div></td>
+							<td>
+								<select size="1" name="gas_coef">
+									<option>1.17 до 20</option>
+									<option>1.5 до 50</option>
+									<option>2.1 до 70</option>
+								</select>
+							</td>
+							<td><input type="text" name="gas_sum" value="" size="8"></td>	
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td><strong>Всього:</strong></td>
+							<td><input type="text" name="full_sum" value="3333" readonly size="8"></td>
+
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td><input type="submit" value="Оплатити" style="width:80px; height:30px;"></td>
+
+						</tr>
+					</table>   
+					<table>
+						<caption>Поповнення телефону</caption>
+						<tr>
+							<th>Імя</th>
+							<th>Номер</th>
+							<th>Сума</th>
+							<th>Регулярно</th>
+							<th>Період</th>
+							<th>&nbsp;</th>
+						</tr>
+						<tr>
+							<td>Тарас</td>
+							<td>+380979665616</td>
+							<td>65</td>
+							<td><div class="payAll"><label><input type="checkbox" value="1"><span>Регул.</span></label></div></td>
+							<td>
+								<select size="1" name="gas_coef">
+									<option>Щомісячно</option>
+									<option>1.5 до 50</option>
+									<option>2.1 до 70</option>
+								</select>
+							</td>
+							<td><input type="submit" value="Оплатити" style="width:80px; height:30px;"></td>
+						</tr>
+						<tr>
+							<td>Катя</td>
+							<td>+380979665616</td>
+							<td>65</td>
+							<td><div class="payAll"><label><input type="checkbox" checked  value="1"><span>Регул.</span></label></div></td>
+							<td>
+								<select size="1" name="gas_coef">
+									<option>Щомісячно</option>
+									<option>1.5 до 50</option>
+									<option>2.1 до 70</option>
+								</select>
+							</td>
+							<td><input type="submit" value="Оплатити" style="width:80px; height:30px;"></td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="Add" style="width:80px; height:30px;"></td>
+						</tr>
+
+					</table>    
+					<table>
+						<caption>Інтернет</caption>
+						<tr>
+							<th>Провайдер</th>
+							<th>Фамілія</th>
+							<th>Рахунок</th>
+							<th>Адрес</th>
+							<th>Регулярно</th>
+							<th>Період</th>
+							<th>&nbsp;</th>
+						</tr>
+						<tr>
+							<td>Тенет</td>
+							<td>Мельник</td>
+							<td>65121</td>
+							<td>Лібкнехта 11</td>
+							<td><div class="payAll"><label><input type="checkbox" value="1"><span>Регул.</span></label></div></td>
+							<td>
+								<select size="1" name="gas_coef">
+									<option>За місяць</option>
+									<option>1.5 до 50</option>
+									<option>2.1 до 70</option>
+								</select>
+							</td>
+							<td><input type="submit" value="Оплатити" style="width:80px; height:30px;"></td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="Add" style="width:80px; height:30px;"></td>
+						</tr>
+					</table> 
+					<table>
+						<caption>Сигналізація</caption>
+						<tr>
+							<th>Провайдер</th>
+							<th>Фамілія</th>
+							<th>Рахунок</th>
+							<th>Адрес</th>
+							<th>Регулярно</th>
+							<th>Період</th>
+							<th>&nbsp;</th>
+						</tr>
+						<tr>
+							<td>Сигналка</td>
+							<td>Мельник</td>
+							<td>65121</td>
+							<td>Лібкнехта 11</td>
+							<td><div class="payAll"><label><input type="checkbox" value="1"><span>Регул.</span></label></div></td>
+							<td>
+								<select size="1" name="gas_coef">
+									<option>За місяць</option>
+									<option>1.5 до 50</option>
+									<option>2.1 до 70</option>
+								</select>
+							</td>
+							<td><input type="submit" value="Оплатити" style="width:80px; height:30px;"></td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="Add" style="width:80px; height:30px;"></td>
+						</tr>
+					</table> 
+					<table>
+						<caption>Страхування</caption>
+						<tr>
+							<th>Провайдер</th>
+							<th>Фамілія</th>
+							<th>Рахунок</th>
+							<th>Адрес</th>
+							<th>Регулярно</th>
+							<th>Період</th>
+							<th>&nbsp;</th>
+						</tr>
+						<tr>
+							<td>Страхбожий</td>
+							<td>Мельник</td>
+							<td>65121</td>
+							<td>Лібкнехта 11</td>
+							<td><div class="payAll"><label><input type="checkbox" value="1"><span>Регул.</span></label></div></td>
+							<td>
+								<select size="1" name="gas_coef">
+									<option>За місяць</option>
+									<option>1.5 до 50</option>
+									<option>2.1 до 70</option>
+								</select>
+							</td>
+							<td><input type="submit" value="Оплатити" style="width:80px; height:30px;"></td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="Add" style="width:80px; height:30px;"></td>
+						</tr>
+					</table> 
+					<table>
+						<caption>Спортзал</caption>
+						<tr>
+							<th>Провайдер</th>
+							<th>Фамілія</th>
+							<th>Рахунок</th>
+							<th>Адрес</th>
+							<th>Регулярно</th>
+							<th>Період</th>
+							<th>&nbsp;</th>
+						</tr>
+						<tr>
+							<td>Страхбожий</td>
+							<td>Мельник</td>
+							<td>65121</td>
+							<td>Лібкнехта 11</td>
+							<td><div class="payAll"><label><input type="checkbox" value="1"><span>Регул.</span></label></div></td>
+							<td>
+								<select size="1" name="gas_coef">
+									<option>За місяць</option>
+									<option>1.5 до 50</option>
+									<option>2.1 до 70</option>
+								</select>
+							</td>
+							<td><input type="submit" value="Оплатити" style="width:80px; height:30px;"></td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="Add" style="width:80px; height:30px;"></td>
+						</tr>
+					</table> 
+				</form> -->
+			</div>
+		</div>
+		<div class="futter">
+			<p>MelnInCorp &#169;</p>
+		</div>
+	</body>
+
+	</html>
